@@ -97,7 +97,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    'mongodb+srv://najafsikander23:YDxl7HbUC4tGbUsG@nodejs-learning.7ae6g.mongodb.net/testDb'
+    ''
   )
   .then(result => {
     const server = app.listen(8080);
